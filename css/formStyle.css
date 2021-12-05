@@ -1,0 +1,115 @@
+
+
+* {
+       box-sizing: border-box;
+}
+
+
+.backgroundVid video { /*add video in the background*/
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       object-fit:cover;
+       z-index: -1;
+}
+
+body {
+
+              font-family: 'Lucida Sans', 'Lucida Sans Regular',
+              'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password],
+input[type=email],
+textarea {
+       width: 100%;
+       padding: 15px;
+       margin: 5px 0 22px 0;
+       display: inline-block;
+       border: none;
+       background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+textarea {
+       background-color: #ddd;
+       outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+
+       float: left;
+       width: 40%;
+       background-color: #a51717;  /*#2b04aa;*/
+       color: white;
+       padding: 14px 20px;
+       margin: 8px 20px;
+       border: none;
+       cursor: pointer;
+       opacity: 4;
+}
+
+button:hover {
+       opacity: 0.5;
+}
+
+
+/* Add padding to container elements */
+.container {
+       
+       padding: 16px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+       background-color:#cfcfcf;   /* rgb(196, 237, 255);*/
+       margin: 10% auto 15% auto;
+       /* 5% from the top, 15% from the bottom and centered */
+       border: 2px solid black;
+       width: 80%;
+       /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+       border: 1px solid #a51717;
+       margin-bottom: 25px;
+}
+
+
+/* Clear floats */
+.clearfix::after {
+       content: "";
+       clear: both;
+       display: table;
+}
+
+.car-container{
+
+       overflow:hidden;
+       width:auto;
+}
+.car{
+       float: left;
+       display: block;
+       width: 40%; /*40% or auto*/
+       padding: 14px 16px;
+       margin-top: 8px;
+       margin-bottom: 8px;
+}
+
+.DATE{
+       float: left;
+       display: block;
+       padding: 14px 16px;
+}
+
+
